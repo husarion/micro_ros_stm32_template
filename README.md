@@ -29,7 +29,7 @@ network:
 
 ## Flashing STM32
 
-Click **Use this template** button, and clone your own copy of this repo.
+Click **[Use this template](https://github.com/husarion/micro_ros_stm32_template/generate)** button, and clone your own copy of this repo.
 
 Open the project with a [Visual Studio Code](https://code.visualstudio.com/) with [PlatformIO extension](https://platformio.org/install/ide?install=vscode).
 
