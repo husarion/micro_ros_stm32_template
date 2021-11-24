@@ -1,0 +1,11 @@
+version: '2.3'
+
+services:
+  talker:
+    image: microros/micro-ros-agent:galactic
+    ports:
+      - "8888:8888/udp"
+    command: udp4 --port 8888 # -v6
+  listener:
+    image: osrf/ros:galactic-desktop
+    command: ros2 run demo_nodes_cpp listener
