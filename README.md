@@ -2,7 +2,7 @@
 
 Boilerplate to create a project with:
 
-**STM32 + Ethernet + micro-ROS + Arduino + PlatformIO**  
+**STM32 + Ethernet + micro-ROS + FreeRTOS + Arduino + PlatformIO**  
 
 ## Default config
 
