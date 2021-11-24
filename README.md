@@ -107,19 +107,19 @@ root@f2c457f245bf:/# ros2 node info /stm32_node
   Action Clients:
 
 root@f2c457f245bf:/# ros2 topic echo /chatter 
-data: 'Hello World: 2180, sys_clk: 2180000'
+data: 'Hello World: 6, sys_clk: 9000'
 ---
-data: 'Hello World: 2181, sys_clk: 2181000'
+data: 'Hello World: 7, sys_clk: 9000'
 ---
-data: 'Hello World: 2182, sys_clk: 2182000'
+data: 'Hello World: 8, sys_clk: 9000'
 ---
-data: 'Hello World: 2183, sys_clk: 2183000'
+data: 'Hello World: 9, sys_clk: 9000'
 ---
 ```
 
-## Troublesshoting
+## Troubleshooting
 
-### Access rights to STLINK
+### Access rights to ST-LINK
 
 ```
 Error: libusb_open() failed with LIBUSB_ERROR_ACCESS
@@ -131,7 +131,7 @@ shutdown command invoked
 
 Solution:
 
-```
+```bash
 sudo apt -y install stlink-tools
 sudo systemctl restart udev
 ```
